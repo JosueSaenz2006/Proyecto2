@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-componente2',
@@ -8,12 +7,9 @@ import { Router } from '@angular/router';
 })
 export class Componente2Component implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-  navegacion(){
-    this.router.navigate(['web2'])
   }
 
 }
